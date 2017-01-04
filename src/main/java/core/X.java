@@ -46,7 +46,7 @@ public class X {
 		list.add("192.168.1.256");                    
 		list.add("1.2.3.4"); 
 		for(String ip_address:list){
-			System.out.println(ip_address+" \t\t=> "+isIpAddress(ip_address));}
+			System.out.println(isIpAddress(ip_address)+" \t<= "+ip_address);}
 	
 	}
 
